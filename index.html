@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Alugueis e Locações - Casa do Construtor</title>
+</head>
+
+<body>
+
+    <!-- ✅ CORREÇÃO 1: h1 e p removidos daqui (estavam soltos antes da navbar) -->
+
+    <!-- NAVBAR -->
+    <nav class="navegacao">
+        <ul class="menu">
+            <li><a href="#inicio" class="menu-link">Início</a></li>
+            <li><a href="#projetos" class="menu-link">Equipamentos</a></li>
+            <li><a href="#servicos" class="menu-link">Serviços</a></li>
+            <li><a href="#sobre" class="menu-link">Sobre</a></li>
+            <li><a href="#contato" class="menu-link">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO / CABEÇALHO -->
+    <!-- ✅ CORREÇÃO 2: h1 e subtítulo agora estão DENTRO do main/cabecalho -->
+    <main id="inicio" class="cabecalho">
+        <h1>Casa do Construtor</h1>
+        <p class="cabecalho-sub-titulo">Aluguel e locação de equipamentos para construção</p>
+    </main>
+
+    <!-- ✅ CORREÇÃO 3: </section> solta removida. Agora a section abre corretamente aqui -->
+
+    <!-- SEÇÃO DE EQUIPAMENTOS -->
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Equipamentos</h2>
+
+        <!-- ✅ CORREÇÃO 4: classe corrigida de "produtos-caixa" para "projetos-caixa" (igual ao CSS) -->
+        <div class="projetos-caixa">
+
+            <!-- ✅ CORREÇÃO 7: todas as imagens agora usam a mesma classe "projetos-imagem" -->
+            <!-- ✅ CORREÇÃO 4: cards agora usam "projeto-card" igual ao CSS -->
+
+            <div class="projeto-card">
+                <img src="./img/furadeira-de-impacto.jpg" alt="Furadeira de Impacto" class="projetos-imagem">
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projeto">Furadeira de Impacto</h3>
+                    <p class="paragrafo-projetos">Furadeira de impacto potente e eficiente para trabalhos pesados.</p>
+                </div>
+            </div>
+
+            <div class="projeto-card">
+                <img src="./img/compactador_Solo.png" alt="Compactador de Solo" class="projetos-imagem">
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projeto">Compactador de Solo</h3>
+                    <p class="paragrafo-projetos">Compactador de solo eficiente para trabalhos de construção e paisagismo.</p>
+                </div>
+            </div>
+
+            <div class="projeto-card">
+                <img src="./img/Escoras_metalicas.png" alt="Escoras Metálicas" class="projetos-imagem">
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projeto">Escoras Metálicas</h3>
+                    <p class="paragrafo-projetos">Escoras metálicas resistentes para suportar cargas pesadas em construções.</p>
+                </div>
+            </div>
+
+            <div class="projeto-card">
+                <img src="./img/martelo_demolidor_30kg.jpg" alt="Martelo Demolidor" class="projetos-imagem">
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projeto">Martelo Demolidor</h3>
+                    <p class="paragrafo-projetos">Martelo demolidor de 30kg para trabalhos de demolição.</p>
+                </div>
+            </div>
+
+            <div class="projeto-card">
+                <img src="./img/Andaimes_tubular_aço.png" alt="Andaimes Tubular de Aço" class="projetos-imagem">
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projeto">Andaimes Tubular de Aço</h3>
+                    <p class="paragrafo-projetos">Andaimes tubulares de aço para trabalhos em altura.</p>
+                </div>
+            </div>
+
+            <div class="projeto-card">
+                <img src="./img/Bitorneira_400L.png" alt="Betoneira 400L" class="projetos-imagem">
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projeto">Betoneira 400L</h3>
+                    <p class="paragrafo-projetos">Betoneira de 400 litros para trabalhos de construção.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ✅ section de projetos fechada corretamente -->
+
+    <!-- ✅ CORREÇÃO 5: Serviços, Missão e Valores movidos para FORA do grid de produtos -->
+
+    <!-- SEÇÃO DE SERVIÇOS -->
+    <section id="servicos" class="sobre">
+        <h2 class="sobre-titulo">Nossos Serviços</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">Oferecemos uma ampla gama de serviços para atender às suas necessidades de construção e reforma. Nossos serviços incluem:</p>
+            <ul class="lista-servicos">
+                <li>Aluguel de equipamentos de construção</li>
+                <li>Locação de ferramentas e máquinas</li>
+                <li>Transporte de equipamentos para o local da obra</li>
+                <li>Assistência técnica e suporte para os equipamentos alugados</li>
+                <li>Consultoria para escolha dos equipamentos adequados para o seu projeto</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- SEÇÃO SOBRE / MISSÃO E VALORES -->
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Nossa Missão</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">Na Casa do Construtor, nossa missão é fornecer equipamentos de alta qualidade e serviços excepcionais para ajudar nossos clientes a alcançar o sucesso em seus projetos de construção e reforma. Estamos comprometidos em oferecer soluções eficientes e confiáveis para atender às necessidades de nossos clientes, garantindo sua satisfação e confiança em nossos produtos e serviços.</p>
+        </div>
+
+        <h2 class="sobre-titulo" style="margin-top: 3rem;">Nossos Valores</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo"><strong>Qualidade:</strong> Equipamentos modernos e revisados para sua segurança e produtividade.</p>
+            <p class="sobre-paragrafo"><strong>Confiança:</strong> Transparência e honestidade em todas as nossas relações.</p>
+            <p class="sobre-paragrafo"><strong>Suporte:</strong> Equipe especializada pronta para atender suas necessidades.</p>
+            <p class="sobre-paragrafo"><strong>Inovação:</strong> Busca contínua por novas tecnologias e melhores práticas.</p>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE CONTATO -->
+    <!-- ✅ CORREÇÃO 6: section e form agora fechados corretamente -->
+    <section id="contato" class="contato">
+        <h2 class="contato-titulo">Entre em Contato</h2>
+
+        <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
+            <div class="grupo-form">
+                <input placeholder="Nome" class="campo-form" id="nome">
+            </div>
+
+            <div class="grupo-form">
+                <textarea class="campo-form" placeholder="Digite sua mensagem" rows="6" id="mensagem"></textarea>
+            </div>
+
+            <button type="submit" class="botao-form">Enviar WhatsApp</button>
+        </form>
+
+    </section>
+    <!-- ✅ section de contato fechada -->
+     
+    <footer class="footer-container">
+        <div class="footer-top">
+            <p>&copy; 2026 Casa do Construtor. Todos os direitos reservados.</p>
+        </div>
+        <div class="footer-bottom">
+            <p class="footer-text">Desenvolvido by <a href="https://www.gtechprime.com.br" target="_blank">GTech Prime</a>.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+<!-- ✅ body fechado corretamente -->
+
+</html>
