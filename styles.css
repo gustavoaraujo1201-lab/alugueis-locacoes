@@ -75,7 +75,7 @@ body {
     flex-direction: column;
     background-image: url('./assets/Casa\ do\ Construtor.png');
     background-size: cover;
-    background-position: center;
+    background-position: center 10%;
 }
 
 h1 {
